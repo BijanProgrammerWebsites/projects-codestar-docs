@@ -16,19 +16,19 @@ export default function Home(): JSX.Element {
                     <h1 className="hero__title">{siteConfig.title}</h1>
                     <p className="hero__subtitle">{siteConfig.tagline}</p>
                     <div className={styles.buttons}>
-                        <Link className="button button--secondary button--lg" to="/docs/intro">
+                        <Link className="button button--secondary button--lg" to="/intro">
                             مقدمات
                         </Link>
-                        <Link className="button button--secondary button--lg" to="/docs/frontend">
+                        <Link className="button button--secondary button--lg" to="/frontend">
                             فرانت‌اند
                         </Link>
-                        <Link className="button button--secondary button--lg" to="/docs/software-engineering">
+                        <Link className="button button--secondary button--lg" to="/software-engineering">
                             مهندسی نرم‌افزار
                         </Link>
-                        <Link className="button button--secondary button--lg" to="/docs/general">
+                        <Link className="button button--secondary button--lg" to="/general">
                             عمومی
                         </Link>
-                        <Link className="button button--secondary button--lg" to="/docs/project">
+                        <Link className="button button--secondary button--lg" to="/project">
                             پروژه
                         </Link>
                     </div>

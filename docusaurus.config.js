@@ -42,9 +42,7 @@ const config = {
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
                     editUrl: 'https://github.com/BijanProgrammerWebsites/projects-codestar-docs/tree/master/',
-                },
-                blog: {
-                    showReadingTime: true,
+                    routeBasePath: '/',
                 },
                 theme: {
                     customCss: require.resolve('./src/css/custom.css'),
@@ -113,23 +111,23 @@ const config = {
                         items: [
                             {
                                 label: 'مقدمات',
-                                to: '/docs/intro',
+                                to: '/intro',
                             },
                             {
                                 label: 'فرانت‌اند',
-                                to: '/docs/frontend',
+                                to: '/frontend',
                             },
                             {
                                 label: 'مهندسی نرم‌افزار',
-                                to: '/docs/software-engineering',
+                                to: '/software-engineering',
                             },
                             {
                                 label: 'عمومی',
-                                to: '/docs/general',
+                                to: '/general',
                             },
                             {
                                 label: 'پروژه',
-                                to: '/docs/project',
+                                to: '/project',
                             },
                         ],
                     },
