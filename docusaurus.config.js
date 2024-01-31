@@ -9,7 +9,7 @@ const config = {
     title: 'آکادمی ستاره',
     staticDirectories: ['public', 'static'],
     tagline: 'بزن بریم!',
-    url: 'https://star-academy.github.io/',
+    url: 'https://docs.codestar.ir/',
     baseUrl: '/',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
@@ -17,7 +17,7 @@ const config = {
 
     // GitHub pages deployment config.
     // If you aren't using GitHub pages, you don't need these.
-    organizationName: 'Star-Academy', // Usually your GitHub org/user name.
+    organizationName: 'BijanProgrammer', // Usually your GitHub org/user name.
     projectName: 'codestar-docs', // Usually your repo name.
 
     plugins: ['docusaurus-plugin-sass'],
@@ -43,7 +43,7 @@ const config = {
             ({
                 docs: {
                     sidebarPath: require.resolve('./sidebars.js'),
-                    editUrl: 'https://github.com/BijanProgrammerWebsites/projects-codestar-docs/tree/master/',
+                    editUrl: 'https://github.com/BijanProgrammerWebsites/projects-codestar-docs/tree/production/',
                     routeBasePath: '/',
                 },
                 theme: {
@@ -99,7 +99,7 @@ const config = {
                         position: 'right',
                     },
                     {
-                        href: 'https://github.com/Star-Academy/',
+                        href: 'https://github.com/BijanProgrammerWebsites/projects-codestar-docs/tree/production',
                         label: 'GitHub',
                         position: 'right',
                     },
@@ -138,7 +138,7 @@ const config = {
                         items: [
                             {
                                 label: 'GitHub',
-                                href: 'https://github.com/Star-Academy/',
+                                href: 'https://github.com/BijanProgrammerWebsites/projects-codestar-docs/tree/production',
                             },
                             {
                                 label: 'Aparat',

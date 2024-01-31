@@ -18,7 +18,7 @@ tags: [Readonly]
 -   کلاس‌های Pseudo چه چیزهایی هستند و چه کاربردی دارند؟
 
 توصیه می‌کنیم همزمان با خواندن این مطلب،
-[صفحۀ دمو](https://star-academy.github.io/frontend-demos/pages/css-concepts/)
+[صفحۀ دمو](https://demos.codestar.ir/css-concepts/)
 را نیز مشاهده کنید تا به صورت دیداری و کاربردی با مفاهیم آشنا شوید.
 
 ---
